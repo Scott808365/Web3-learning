@@ -38,21 +38,23 @@ Deployment: Vercel
 
 Dev Tools: Nodemon
 
-📂 Project Structure
-pgsql
-Copy
-Edit
+## 📁 Project Structure
+
+```
 web3-learning-hub/
-├── index.js               # Main server
-├── package.json           # Dependencies & scripts
-├── vercel.json            # Deployment config
-└── public/                # Static assets & HTML pages
-    ├── index.html         # Homepage
-    ├── blockchain-overview-page.html
-    ├── erc-tokens-page.html
-    ├── defi-overview-page.html
-    ├── blockchain-terminologies-page.html
-    └── not-found.html
+├── index.js                           # Main server file
+├── package.json                       # Project dependencies and scripts
+├── vercel.json                        # Vercel deployment configuration
+├── README.md                          # Project documentation
+└── public/                           # Static assets and HTML pages
+    ├── index.html                    # Homepage
+    ├── blockchain-overview-page.html # Blockchain fundamentals
+    ├── erc-tokens-page.html         # ERC token standards
+    ├── defi-overview-page.html      # DeFi concepts
+    ├── blockchain-terminologies-page.html # Glossary
+    └── not-found.html               # 404 error page
+
+
 🚀 Getting Started
 Requirements
 Node.js v14+
